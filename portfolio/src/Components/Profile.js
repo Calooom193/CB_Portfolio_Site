@@ -6,7 +6,7 @@ export const Profile = ({ setProfileClicked }) => {
   };
 
   return (
-    <div className="Profile">
+    <div scroll="no" className="Profile">
       <header className="Profile-header">
         <button onClick={handleClick}>x</button>
         <img src="https://i.imgur.com/8MfyAAb.jpg" alt="" />

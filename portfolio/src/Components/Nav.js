@@ -7,7 +7,8 @@ export const Nav = ({ profileClicked, setProfileClicked }) => {
 
   return (
     <div className="Nav">
-      <button onClick={handleClick}>profile</button>
+      <img src="https://i.imgur.com/8MfyAAb.jpg" alt="" onClick={handleClick}/>
+      <button onClick={handleClick}>{"Bio"}</button>
     </div>
   );
 };
